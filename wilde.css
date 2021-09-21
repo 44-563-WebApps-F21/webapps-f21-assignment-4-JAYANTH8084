@@ -27,27 +27,21 @@ p.speech{
     }
     
     table{border: 1px solid black;
-        padding: 20px;
-        margin: 30px;
+        padding: 10px;
+        margin: 20px;
     }
-table.collapsing{
-    border-collapse: collapse;
-}
 
 td,th{border: solid 2px;
 text-align: left;
 }
 
 tr:nth-child(even){
-    background-color:yellowgreen;
+    background-color:silver;
 }
 
-.firstcitizen:hover{
+.gerald:hover{
     text-shadow: 2px 3px 4px violet;
 }
-.secondcitizen:hover{
-    text-shadow: 2px 3px 4px violet;
-}
-.thirdcitizen:hover{
+.lordillingworth:hover{
     text-shadow: 2px 3px 4px violet;
 }
