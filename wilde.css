@@ -1,0 +1,53 @@
+p.speech{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;}
+    
+    .name{
+        color: brown;
+    }
+    
+    p.stage-direction{
+        background-color:silver;
+        color: black;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    
+    p.stage-direction:hover{
+        background-color: rgb(8, 110, 5);
+        color:orange;
+    }
+
+    .gerald{
+        color:rgb(60, 0, 128);
+    }
+    .lordillingworth{
+        color: rgb(122, 253, 0);
+    }
+    
+    table{border: 1px solid black;
+        padding: 20px;
+        margin: 30px;
+    }
+table.collapsing{
+    border-collapse: collapse;
+}
+
+td,th{border: solid 2px;
+text-align: left;
+}
+
+tr:nth-child(even){
+    background-color:yellowgreen;
+}
+
+.firstcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}
+.secondcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}
+.thirdcitizen:hover{
+    text-shadow: 2px 3px 4px violet;
+}
