@@ -53,15 +53,33 @@ tr:nth-child(even){
     height:30px;
     margin-left:-5px;
 }
+.icon2:before{
+    content: '';
+    background:url('arrow-right-icon-256-1808646777.png');
+    background-size:cover;
+    position:absolute;
+    background-color: skyblue;
+    width:30px;
+    height:30px;
+    margin-left:-5px;
+}
 #content {
     position: relative;
 }
-#content img {
+#content img.ribbon{
     position: absolute;
     top: -1250px;
     right: 30px;
     height: 415px;
     width: 350px;
+}
+#content img.ribbon2 {
+    position: absolute;
+    bottom: -200px;
+    right: 70px;
+    height: 415px;
+    width: 350px;
+    
 }
 
 ul{
