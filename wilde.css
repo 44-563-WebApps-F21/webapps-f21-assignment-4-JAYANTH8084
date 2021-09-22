@@ -2,11 +2,7 @@ p.speech{
     color: black;
     font-size: 15px;
     font-family: sans-serif;}
-    
-    .name{
-        color: brown;
-    }
-    
+        
     p.stage-direction{
         background-color:silver;
         color: black;
@@ -21,9 +17,11 @@ p.speech{
 
     .gerald{
         color:rgb(60, 0, 128);
+        margin-left: 40px;
     }
     .lordillingworth{
         color: rgb(122, 253, 0);
+        margin-left: 30px;
     }
     
     table{border: 1px solid black;
@@ -45,3 +43,43 @@ tr:nth-child(even){
 .lordillingworth:hover{
     text-shadow: 2px 3px 4px violet;
 }
+.icon:before{
+    content: '';
+    background:url('arrow-right-icon-256-1808646777.png');
+    background-size:cover;
+    position:absolute;
+    background-color: skyblue;
+    width:30px;
+    height:30px;
+    margin-left:-5px;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: -1250px;
+    right: 30px;
+    height: 415px;
+    width: 350px;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: violet;
+}
+  ul.navbar-vertical a:hover{
+      background-color: yellow;
+      
+  }
